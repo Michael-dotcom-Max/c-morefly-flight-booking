@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/c-morefly-flight-booking/static/css/main.4b9af07f.css",
+    "main.js": "/c-morefly-flight-booking/static/js/main.5c41403a.js",
+    "static/js/453.deb8a64f.chunk.js": "/c-morefly-flight-booking/static/js/453.deb8a64f.chunk.js",
+    "index.html": "/c-morefly-flight-booking/index.html",
+    "main.4b9af07f.css.map": "/c-morefly-flight-booking/static/css/main.4b9af07f.css.map",
+    "main.5c41403a.js.map": "/c-morefly-flight-booking/static/js/main.5c41403a.js.map",
+    "453.deb8a64f.chunk.js.map": "/c-morefly-flight-booking/static/js/453.deb8a64f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b9af07f.css",
+    "static/js/main.5c41403a.js"
+  ]
+}
