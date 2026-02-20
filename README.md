@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# ✈️ C-MoreFly
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**C-MoreFly is a flight booking website you can run on your computer.** It looks and feels like a real flight booking site — you search for flights, pick one you like, fill in your details, and "pay." Don't worry, no real money is involved and no real flights are booked. It's a demo app, great for learning or showing off.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🤔 What Does It Actually Do?
 
-### `npm start`
+Imagine going to a website like Expedia or Google Flights. You type in where you want to go, pick a date, and a list of flights appears. You choose one, fill in your name and card details, and get a booking confirmation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+C-MoreFly does exactly that — just without real flights or real payments. Everything is simulated, which makes it safe to play around with.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here's the step-by-step experience:
 
-### `npm test`
+**Step 1 — Search**
+You pick a city you're flying from, a city you're flying to, a date, how many passengers, and whether you want Economy, Business, or First Class. Then you hit "Search Flights."
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Step 2 — Pick a Flight**
+A list of 8 flights appears, from airlines like Emirates, British Airways, Delta, and more. Each one shows the price, departure and arrival times, how long the flight takes, and whether it's direct or has a stopover. You can sort them by price or rating, and filter by class. When you find one you like, click "Select Flight."
 
-### `npm run build`
+**Step 3 — Fill In Your Details**
+You enter passenger names, email addresses, and phone numbers. Then you fill in a (fake) credit card to complete the booking.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Step 4 — Confirmation**
+You get a booking confirmation screen with a reference number, all your trip details, and the total cost. That's it!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 How Do I Run It?
 
-### `npm run eject`
+You'll need two free tools installed on your computer first:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Node.js** — this is what runs the app. Download it at [nodejs.org](https://nodejs.org) (get the "LTS" version)
+- **A terminal** — on Mac this is called Terminal, on Windows use Command Prompt or PowerShell
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once you have those, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+1. Download or clone this project to your computer
+2. Open your terminal and navigate to the project folder
+3. Type:  npm install   (then press Enter — this downloads everything the app needs)
+4. Type:  npm start     (then press Enter — this starts the app)
+5. Open your browser and go to:  http://localhost:3000
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The app should open automatically. If it doesn't, just copy `http://localhost:3000` into your browser's address bar.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌍 Which Cities Can I Choose From?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app includes 40 real cities and airports from around the world, including:
 
-### Code Splitting
+New York, London, Paris, Dubai, Tokyo, Sydney, Singapore, Los Angeles, Toronto, Mumbai, Beijing, Amsterdam, Bangkok, Rome, Barcelona, and many more.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛫 Which Airlines Appear?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Flights are shown from 15 major real-world airlines, including Emirates, British Airways, Singapore Airlines, Delta, Lufthansa, Air France, Qantas, and others. The specific flights shown (times, prices, etc.) are randomly made up each time you search.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ❓ Common Questions
 
-### Advanced Configuration
+**Is this a real booking site?**
+No. No real flights are booked and no real payments are taken. It's a demo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Can I use a real credit card?**
+You could type the numbers in, but nothing will be charged — there's no real payment system connected. We'd recommend just typing in made-up numbers like `1234 1234 1234 1234`.
 
-### Deployment
+**Why are the prices different every time I search?**
+The flights are randomly generated each time, so prices and times will change. This is by design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Does it work on my phone?**
+It's primarily designed for desktop/laptop browsers, but may work on mobile too.
 
-### `npm run build` fails to minify
+**Do I need to create an account?**
+No. Just open it and start searching.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## ⚠️ Good to Know
+
+- The flights, prices, and times shown are **not real** — they're generated randomly
+- The **confirmation email** mentioned at the end is just for show — no email is actually sent
+- If you close or refresh the page, everything resets and you'll start from scratch
+
+---
+
+*C-MoreFly is a demo project built with React — a popular tool for building websites.*
